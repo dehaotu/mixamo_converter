@@ -1,3 +1,6 @@
+# NOTE
+Forked from the original to set the default parameters for mixamo->unreal convertion based on this [YouTube video](https://www.youtube.com/watch?v=eYal6taYUfE&ab_channel=EvansBohl).
+
 # Mixamo Converter
 is a Blender Plugin that Converts Mixamo animations to work in Unreal Engine 4 with root motion
 Blender 2.80 or newer needed to work. For blender 2.78+ use blender27 branch of the converter.

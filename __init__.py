@@ -140,11 +140,11 @@ class MixamoPropertyGroup(bpy.types.PropertyGroup):
     b_remove_namespace: bpy.props.BoolProperty(
         name="Remove Namespace",
         description="Removes Naespaces from objects and bones",
-        default=True)
+        default=False)
     b_unreal_bones: bpy.props.BoolProperty(
         name="Use Unreal Engine bone schema",
         description="Renames bones to match unreal engine schema",
-        default=False)
+        default=True)
     fixbind: bpy.props.BoolProperty(
         name="Fix Bind",
         description="If enabled, adds a dummy mesh and binds it, to prevent loss of bindpose when exporting fbx",
@@ -152,7 +152,7 @@ class MixamoPropertyGroup(bpy.types.PropertyGroup):
     apply_rotation: bpy.props.BoolProperty(
         name="Apply Rotation",
         description="Applies rotation during conversion to prevent rotation and scaling issues",
-        default=True)
+        default=False)
     apply_scale: bpy.props.BoolProperty(
         name="Apply Scale",
         description="Applies scale during conversion to prevent rotation and scaling issues",
